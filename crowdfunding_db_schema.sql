@@ -36,7 +36,7 @@ CREATE TABLE contacts (
 CREATE TABLE campaign (
     cf_id INT PRIMARY KEY,
     contact_id INT,
-    comapny_name VARCHAR NOT NULL,
+    company_name VARCHAR NOT NULL,
     description VARCHAR,
     goal FLOAT,
     pledged FLOAT,
